@@ -1,1 +1,14 @@
-// Mixins in here
+.flexr() {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.custom-btn(@bgColor: @button-bg, @fontColor: white) {
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: @bgColor;
+    color: @fontColor;
+    padding: 1rem 5rem;
+}
